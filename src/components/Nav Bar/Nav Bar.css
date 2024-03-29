@@ -1,0 +1,4 @@
+.navBar ul li a.defualt:hover {
+    color: blue !important;
+    text-decoration: underline !important;
+}
