@@ -1,5 +1,4 @@
-# Nav Bar Module 
-<a id="toTop"></a>
+# Nav Bar Module <a id="toTop"></a>
 
 This is a simple navigation bar module created using React. It provides basic navigation functionality for web applications.
 
@@ -23,8 +22,8 @@ npm run start
 
 ## Project Structure *Update*
 
-Kylies Website/
-├── client/
+Navbar/
+├── dist/
 │ ├── public/
 │ ├── src/
 │ │ ├── Components /
