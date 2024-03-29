@@ -1,0 +1,1 @@
+    "deploy": "gh-pages -d . -b main && npm run build && gh-pages -d dist -b gh-pages && mv dist ./dist_version_control/dist_$(date +%Y%m%d%H%M%S)"
