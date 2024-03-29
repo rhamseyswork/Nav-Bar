@@ -14,7 +14,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "build": "vite build",
-    "deploy": "gh-pages -d . -b main && npm run build && mv dist ./dist_version_control/dist_$(date +%Y%m%d%H%M%S) && gh-pages -d ./dist_version_control/dist_$(date +%Y%m%d%H%M%S) -b gh-pages "
+    "deploy": "git branch -D gh-pages && git push origin --delete gh-pages && gh-pages -d . -b main && npm run build && mv dist ./dist_version_control/dist_$(date +%Y%m%d%H%M%S) && gh-pages -d ./dist_version_control/dist_$(date +%Y%m%d%H%M%S) -b gh-pages "
   },
   "repository": {
     "type": "git",
