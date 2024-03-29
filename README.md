@@ -17,6 +17,8 @@ This is a simple navigation bar module created using React. It provides basic na
 
 You can view a live demo of the Nav Bar Module [here](https://rhamseyswork.github.io/Nav-Bar/).
 
+(GitHub Pages doesnt render properly)
+
 ## Installation <a id="installation"></a>
 
 To use the Nav Bar Module in your project, you can clone the repository:
